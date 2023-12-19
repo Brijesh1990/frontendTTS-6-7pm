@@ -1,0 +1,38 @@
+@import url('font-family.css');
+body 
+{
+   background-color: orange;
+} 
+
+.box  
+{
+   width: 50%;
+   height: auto;
+   margin: auto;
+   border: dashed 5px;
+   margin-top: 5%;
+   padding: 25px;
+   background-color: white;
+}
+
+.box1  
+{
+   width: 50%;
+   height: auto;
+   margin: auto;
+   border: dashed 5px;
+   margin-top: 5%;
+   padding: 25px;
+   background-color: aqua;
+}
+
+.box2  
+{
+   width: 50%;
+   height: auto;
+   margin: auto;
+   border: dashed 5px;
+   margin-top: 5%;
+   padding: 25px;
+   background-color: olivedrab;
+}

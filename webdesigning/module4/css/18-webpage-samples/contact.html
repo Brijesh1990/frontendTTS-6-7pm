@@ -178,7 +178,7 @@
           
         }
 
-        .content-changepassword input 
+        .content-changepassword input,textarea 
         {
             width: 400px;
             height: auto;
@@ -211,12 +211,6 @@
           margin-top: 5%;
         }
 
-        .footer p 
-        {
-            text-align: center;
-            color: white;
-            font-size: 25px;
-        }
     </style>
 
 </head>
@@ -254,11 +248,11 @@
     </section>
     <!-- shradha content start here -->
     <section id="shradha-content">
-        <button type="button">Update Profiles here <span class="fa fa-users"></span></button>
+        <button type="button">Contact with Us <span class="fa fa-users"></span></button>
         <br><br>
-        <h1>Change Your Password <span class="fa fa-lock"></span></h1> 
+        <h1>Contact with Us <span class="fa fa-lock"></span></h1> 
         <div class="content-sidebar">
-          <h3>Change Your Password</h3>  
+          <h3>Contact Form</h3>  
           <ul>
             <li><a href="profile.html">Manage Profile</a></li>
                 <li><a href="profile.html">Manage Notification <span class="fa fa-bell"></span></a></li>
@@ -270,14 +264,19 @@
           </ul>
         </div>
         <div class="content-changepassword">
+
             <form method="post">
-                <input type="password" name="opass" placeholder="Old Password *">
+                <input type="text" name="name" placeholder="Name *">
                 <br><br>
-                <input type="password" name="npass" placeholder="New Password *">
+                <input type="text" name="email" placeholder="Email *">
                 <br><br>
-                <input type="password" name="cpass" placeholder="Confirmed Password *">
+                <input type="text" name="subject" placeholder="Subject *">
                 <br><br>
-                <input type="submit" name="chnage" value="Submit" placeholder="Old Password *">
+                <input type="text" name="phone" placeholder="Phone *">
+                <br><br>
+                <textarea  name="message" placeholder="Message *"></textarea>
+                <br><br>
+                <input type="submit" name="send" value="Send" >
                 
                 
             </form>
@@ -286,10 +285,7 @@
     <div class="clearfix"></div>
     <!-- shradha footer start here -->
     <section id="shradha-footer">
-        <div class="footer">
-            <hr>
-            <p>copyright@2012-2022 All right reserved company</p>
-        </div>
+        <div class="footer"></div>
     </section>
 </body>
 </html>

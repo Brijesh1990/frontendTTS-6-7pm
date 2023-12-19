@@ -178,7 +178,7 @@
           
         }
 
-        .content-changepassword input 
+        .content-changepassword input,textarea 
         {
             width: 400px;
             height: auto;
@@ -217,6 +217,7 @@
             color: white;
             font-size: 25px;
         }
+
     </style>
 
 </head>
@@ -254,11 +255,11 @@
     </section>
     <!-- shradha content start here -->
     <section id="shradha-content">
-        <button type="button">Update Profiles here <span class="fa fa-users"></span></button>
+        <button type="button">Manage Profile here<span class="fa fa-users"></span></button>
         <br><br>
-        <h1>Change Your Password <span class="fa fa-lock"></span></h1> 
+        <h1>Manage Profile <span class="fa fa-lock"></span></h1> 
         <div class="content-sidebar">
-          <h3>Change Your Password</h3>  
+          <h3>Manage Profile</h3>  
           <ul>
             <li><a href="profile.html">Manage Profile</a></li>
                 <li><a href="profile.html">Manage Notification <span class="fa fa-bell"></span></a></li>
@@ -270,14 +271,21 @@
           </ul>
         </div>
         <div class="content-changepassword">
+
             <form method="post">
-                <input type="password" name="opass" placeholder="Old Password *">
+
+                <img src="https://images.unsplash.com/photo-1618641986557-1ecd230959aa?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D" width="250px" height="250px" style="border-radius: 50%;">
+                <input type="text" name="name" placeholder="Name *" value="Meena">
                 <br><br>
-                <input type="password" name="npass" placeholder="New Password *">
+                <input type="text" name="email" placeholder="Email *" value="meena@gmail.com">
                 <br><br>
-                <input type="password" name="cpass" placeholder="Confirmed Password *">
+                <input type="text" name="subject" placeholder="Subject *" value="subject">
                 <br><br>
-                <input type="submit" name="chnage" value="Submit" placeholder="Old Password *">
+                <input type="text" name="phone" placeholder="Phone *" value="9998003879">
+                <br><br>
+                <textarea  name="message" placeholder="Message *">150 feet ring road rajkot</textarea>
+                <br><br>
+                <input type="submit" name="send" value="Update Profile" >
                 
                 
             </form>
@@ -287,7 +295,6 @@
     <!-- shradha footer start here -->
     <section id="shradha-footer">
         <div class="footer">
-            <hr>
             <p>copyright@2012-2022 All right reserved company</p>
         </div>
     </section>
