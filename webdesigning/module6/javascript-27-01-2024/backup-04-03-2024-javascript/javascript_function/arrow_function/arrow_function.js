@@ -24,4 +24,10 @@ const a=()=>{
 // }
 // console.log(display(20,10));
 
+nm=(fnm)=>
+{
+    return fnm;
+}
+console.log(nm("brijesh"));
+
 
