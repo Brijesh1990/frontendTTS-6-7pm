@@ -1,0 +1,20 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.map
+{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  border:10px double;
+  padding: 25px;
+  margin-top: 5%;
+}
+.map h1,p 
+{
+  text-align: center;
+  color: red;
+}

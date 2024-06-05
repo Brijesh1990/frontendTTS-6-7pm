@@ -1,0 +1,29 @@
+$bg-success:green;
+$bg-danger:red;
+$text-success:green;
+$text-white:white;
+$bg-dark:black;
+$container:80%;
+$container-fluid:100%;
+$margin:auto;
+$padding:auto; 
+$bg-lightgray:#d3d3d3;
+$text-center:center;
+$padding-max:25px;
+
+body 
+{
+margin: $margin;
+padding: $padding;
+background-color: $bg-lightgray;
+}
+.app 
+{
+width: $container;
+height: auto;
+margin: $margin;
+background-color: $bg-dark;
+color: $text-white;
+text-align: $text-center;
+padding: $padding-max;
+}
