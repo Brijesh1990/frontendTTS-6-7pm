@@ -1,14 +1,54 @@
 import React from "react";
 import { Container,Row } from "react-bootstrap";
-import product1 from './assets/images/product1.webp'
-import product2 from './assets/images/product2.webp'
-import product3 from './assets/images/product3.webp'
-import product4 from './assets/images/product4.webp'
-
+import product1 from '../../assets/images/product1.webp'
+import product2 from '../../assets/images/product2.webp'
+import product3 from '../../assets/images/product3.webp'
+import product4 from '../../assets/images/product4.webp'
+import slider from '../../assets/images/slider.jpg'
+import slider1 from '../../assets/images/slider1.jpg'
+import slider2 from '../../assets/images/slider2.jpg'
 function Content()
 {
 return (
 <>
+{/* slider here */}
+<div
+id="carouselExampleControls"
+className="carousel slide"
+data-bs-ride="carousel"
+>
+<div className="carousel-inner">
+<div className="carousel-item active">
+<img src={slider} className="d-block w-100" alt="..." style={{width:"100%", height:"380px"}} />
+</div>
+<div className="carousel-item">
+<img src={slider1} className="d-block w-100" alt="..." style={{width:"100%", height:"380px"}} />
+</div>
+<div className="carousel-item">
+<img src={slider2} className="d-block w-100" alt="..." style={{width:"100%", height:"380px"}} />
+</div>
+</div>
+<button
+className="carousel-control-prev"
+type="button"
+data-bs-target="#carouselExampleControls"
+data-bs-slide="prev"
+>
+<span className="carousel-control-prev-icon" aria-hidden="true" />
+<span className="visually-hidden">Previous</span>
+</button>
+<button
+className="carousel-control-next"
+type="button"
+data-bs-target="#carouselExampleControls"
+data-bs-slide="next"
+>
+<span className="carousel-control-next-icon" aria-hidden="true" />
+<span className="visually-hidden">Next</span>
+</button>
+</div>
+
+
 <Container className="p-5 mt-5">
 <Row>
 <div className="col-md-4 shadow">
@@ -31,9 +71,6 @@ return (
 <p className="fs-4 text-center"><button type="button" className="btn btn-sm btn-dark text-white">Buy Now</button></p>
 
 </div>
-
-
-</ul>
 </div>
 <div className="col-md-8">
 <h5 className="text-center bg-dark text-white mt-2 p-2">Hurry Up 50% sell Now</h5>
