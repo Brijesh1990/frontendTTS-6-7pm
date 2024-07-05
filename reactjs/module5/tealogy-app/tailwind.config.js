@@ -13,7 +13,21 @@ export default {
           fontVariationSettings: '"opsz" 32'
         },
       ],
-
+      container: {
+        center: true,
+      },
+      container: {
+        padding: '2rem',
+      },
+      container: {
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        },
+      },
     extend: {
       spacing: {
         '112': '28rem',
