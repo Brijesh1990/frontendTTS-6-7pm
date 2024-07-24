@@ -1,0 +1,92 @@
+{
+  "add-data": [
+    {
+      "id": "4ca4",
+      "name": "brijesh",
+      "email": "b@gmail.com",
+      "phone": "9998003879",
+      "address": "rajkot",
+      "pincode": "360005"
+    },
+    {
+      "id": "a8a4",
+      "name": "asha",
+      "email": "a@gmail.com",
+      "phone": "9912121212",
+      "address": "hh",
+      "pincode": "360005"
+    },
+    {
+      "id": "b450",
+      "name": "h",
+      "email": "h",
+      "phone": "h",
+      "address": "h",
+      "pincode": "h"
+    },
+    {
+      "id": "312a",
+      "name": "p",
+      "email": "p",
+      "phone": "p",
+      "address": "p",
+      "pincode": "p"
+    },
+    {
+      "id": "3478",
+      "name": "p",
+      "email": "p",
+      "phone": "p",
+      "address": "p",
+      "pincode": "p"
+    },
+    {
+      "id": "ea61",
+      "name": "aa",
+      "email": "aaa",
+      "phone": "aaa",
+      "address": "aaa",
+      "pincode": "aaa"
+    },
+    {
+      "id": "3d23",
+      "name": "aaa",
+      "email": "aaa",
+      "phone": "aaa",
+      "address": "aa",
+      "pincode": "aa"
+    },
+    {
+      "id": "5420",
+      "name": "aaa",
+      "email": "aaa",
+      "phone": "aaa",
+      "address": "aaa",
+      "pincode": "aaa"
+    },
+    {
+      "id": "4c67",
+      "name": "a",
+      "email": "a",
+      "phone": "a",
+      "address": "a",
+      "pincode": "a"
+    },
+    {
+      "id": "f8fe",
+      "name": "a",
+      "email": "a",
+      "phone": "a",
+      "address": "a",
+      "pincode": "a"
+    },
+    {
+      "id": "eb49",
+      "name": "ashtha",
+      "email": "ashtha007@gmail.com",
+      "phone": "999121212121",
+      "address": "rajkot",
+      "pincode": "360005"
+    }
+  ]
+}

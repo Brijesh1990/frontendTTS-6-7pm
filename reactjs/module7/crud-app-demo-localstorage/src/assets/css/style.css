@@ -1,0 +1,9 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: url('https://th.bing.com/th/id/OIP.8zJYriRG6Cboi60OoY2xpwHaEo?rs=1&pid=ImgDetMain') no-repeat;
+    background-size: cover !important;
+
+}
