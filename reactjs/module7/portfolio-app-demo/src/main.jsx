@@ -19,6 +19,7 @@ import AdminLayout from './components/admin/AdminLayout';
 import ManageCustomer from './components/admin/ManageCustomer';
 import AddPortfolio from './components/admin/AddPortfolio';
 import AddAbstract from './components/admin/AddAbstract';
+import DeleteAbstract from './components/admin/DeleteAbtstract';
 import AddSkills from './components/admin/AddSkills';
 import AddClient from './components/admin/AddClient';
 import ManageContacts from './components/admin/ManageContacts';
@@ -44,6 +45,7 @@ root.render(
    <Route path='/admin-login/manage-customer' element={<ManageCustomer />} />
    <Route path='/admin-login/add-portfolio' element={<AddPortfolio />} />
    <Route path='/admin-login/add-abstract' element={<AddAbstract />} />
+   <Route path='/admin-login/delete-abstract/:id' element={<DeleteAbstract />} />
    <Route path='/admin-login/add-skills' element={<AddSkills />} />
    <Route path='/admin-login/add-clients' element={<AddClient />} />
    <Route path='/admin-login/manage-contacts' element={<ManageContacts />} />
