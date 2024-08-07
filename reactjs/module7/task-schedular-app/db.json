@@ -1,0 +1,34 @@
+{
+  "add-task": [
+    {
+      "id": "6635",
+      "taskname": "angular crud",
+      "priority": "Top priority",
+      "addeddate": "2024-08-06"
+    },
+    {
+      "id": "8892",
+      "taskname": "Rect js cru operation from api",
+      "priority": "Low priority",
+      "addeddate": "2024-08-22"
+    },
+    {
+      "id": "3085",
+      "taskname": "laravel crud operations",
+      "priority": "Low priority",
+      "addeddate": "2024-08-08"
+    },
+    {
+      "id": "18f0",
+      "taskname": "python crud operations",
+      "priority": "Top priority",
+      "addeddate": "2024-08-05"
+    },
+    {
+      "id": "e4c9",
+      "taskname": "node crud operations",
+      "priority": "Top priority",
+      "addeddate": "2024-08-05"
+    }
+  ]
+}

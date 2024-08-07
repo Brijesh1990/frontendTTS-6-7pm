@@ -15,14 +15,31 @@ const Home=()=>{
       setData(response.data);
     })
 
-  },[]);
+  },[data]);
 
     return(
     <>
       <Container className="p-5 mt-5 w-75 mx-auto shadow">
       <h3>React js CRUD(create | read |Update | delete)</h3>
       <hr className="w-50 border border-1 border-dark" />
-      <Link to='/create-data'><Button type="button" className="mt-3 mb-4 btn btn-md btn-dark text-white float-end">Add Data <span className="fa fa-person"></span></Button></Link>
+{/*  
+      <span className="text-white">{data.length}</span> */}
+
+      <Link to='/'><Button type="button" className="mt-3 mb-4 btn btn-md btn-dark text-white ms-4">Total Numbers of Users <span className="fa fa-person"><span className="badge badge-danger bg-danger text-white">{data.length}</span></span></Button></Link>
+
+        
+        {/* {data && data.map((row)=>{
+           return (
+            <>
+             
+             <span className="text-white">{data.length}</span>
+
+            </>
+           )
+          
+        })} */}
+   
+      <Link to='/create-data'><Button type="button" className="mt-3 mb-4 btn btn-md btn-dark text-white float-end ms-5">Add Data <span className="fa fa-person"></span></Button></Link>
 
       {/* show all data */}
       <div className="mt-5">
