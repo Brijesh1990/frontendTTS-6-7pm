@@ -23,6 +23,7 @@ import DeleteAbstract from './components/admin/DeleteAbtstract';
 import AddSkills from './components/admin/AddSkills';
 import AddClient from './components/admin/AddClient';
 import ManageContacts from './components/admin/ManageContacts';
+import DeleteContact from './components/admin/DeleteContact';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -49,7 +50,7 @@ root.render(
    <Route path='/admin-login/add-skills' element={<AddSkills />} />
    <Route path='/admin-login/add-clients' element={<AddClient />} />
    <Route path='/admin-login/manage-contacts' element={<ManageContacts />} />
-
+   <Route path='/admin-login/delete-contact/:id' element={<DeleteContact />} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

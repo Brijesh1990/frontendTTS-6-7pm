@@ -24,53 +24,32 @@
   "add-client": [],
   "contacts": [
     {
-      "id": "376c",
-      "name": "brijesh",
-      "email": "bkpandey.pandey@gmail.com",
-      "phone": "9998003879",
-      "message": "hi i just search customer care number please send me"
-    },
-    {
-      "id": "b27b",
-      "name": "payal",
-      "email": "payal@gmail.com",
+      "id": "6697",
+      "name": "sahil",
+      "email": "sahil@gmail.com",
       "phone": "9998003879",
       "message": "hi"
     },
     {
-      "id": "c924",
+      "id": "7baa",
       "name": "harshit",
       "email": "harshit@gmail.com",
-      "phone": "863879865",
-      "message": "hi"
-    },
-    {
-      "id": "d5aa",
-      "name": "abcd",
-      "email": "kumarsanu007@gmail.com",
-      "phone": "9998003879",
-      "message": "hello"
-    },
-    {
-      "id": "ef4f",
-      "name": "parth",
-      "email": "parth007@gmail.com",
-      "phone": "9998003879",
-      "message": "hey i just want customers care numbers its just testing email"
-    },
-    {
-      "id": "c79b",
-      "name": "abc",
-      "email": "abcd@gmail.com",
       "phone": "9998003879",
       "message": "hi"
     },
     {
-      "id": "13b3",
-      "name": "parth",
-      "email": "pp7810559@gmail.com",
+      "id": "ce5a",
+      "name": "aaa",
+      "email": "aaa@gmail.com",
       "phone": "9998003879",
-      "message": "hi this is parth and send me customers care numbers"
+      "message": "jh"
+    },
+    {
+      "id": "6978",
+      "name": "a",
+      "email": "aaa@gmail.com",
+      "phone": "9998003879",
+      "message": "hi"
     }
   ],
   "add-reviews": []
